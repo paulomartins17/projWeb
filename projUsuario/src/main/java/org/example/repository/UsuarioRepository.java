@@ -1,4 +1,10 @@
 package org.example.repository;
 
-public class UsuarioRepository {
+import org.example.model.Usuario;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UsuarioRepository extends MongoRepository<Usuario, String> {
+
 }
