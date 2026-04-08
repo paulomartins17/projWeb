@@ -4,7 +4,10 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(gh repo:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(python -c \"import openpyxl\")",
+      "Bash(pip install:*)",
+      "Bash(python -)"
     ]
   }
 }
